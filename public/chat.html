@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>RealTime Chat App || Welcome</title>
+  </head>
+  <body>
+    <div class="wholeBody">
+      <form action="./index.html">
+        <div class="header">
+          <img src="img/slogan.png" alt="" />
+          <button class="btn leave-btn">Leave Chat</button>
+        </div>
+      </form>
+
+      <section class="section"></section>
+
+      <footer class="footer">
+        <form action="" id="chat-form">
+          <input
+            type="text"
+            class="input-field"
+            name="msg"
+            placeholder="Write Here!"
+            autocomplete="off"
+            id="msg"
+          />
+          <button class="btn">Send</button>
+        </form>
+      </footer>
+    </div>
+    <!-- QS CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.min.js"
+      integrity="sha256-ijqLssetA1NMNjZ+w1zaUafQQLm4IW5OoM8O+4tatME="
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/client.js"></script>
+  </body>
+</html>

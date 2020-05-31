@@ -1,0 +1,111 @@
+body {
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: auto;
+  color: black;
+  background-color: grey;
+}
+
+.wholeBody {
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  background-color: teal;
+  width: 50vw;
+  min-height: 10vh;
+  margin: auto;
+  border-radius: 10px 10px 0px 0px;
+  padding: 15px;
+  position: relative;
+}
+
+img {
+  background-size: cover;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.section {
+  height: 60vh;
+  margin: auto;
+  width: 50vw;
+  background-color: lemonchiffon;
+  overflow: auto;
+  padding: 15px;
+}
+
+.right {
+  background-color: rgb(224, 143, 113);
+  min-height: 35px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.p {
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+.h4 {
+  margin-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+
+h4 {
+  margin: 0px;
+  padding-top: 9px;
+}
+
+.input-field {
+  margin: auto;
+  width: 40vw;
+  border: none;
+  border-radius: 5px;
+  border-radius: 0px 0px 0px 10px;
+  background-color: lemonchiffon;
+  padding: 15px;
+  font-size: 17px;
+}
+
+button {
+  width: 9.5vw;
+  background-color: teal;
+  border: none;
+  border-radius: 0px 0px 10px 0px;
+  padding: 15px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.leave-btn {
+  position: absolute;
+  right: 0;
+}
+
+p {
+  margin: 5px 0px 0px 0px;
+  padding: 0px;
+}
+
+@media (max-width: 746px) {
+  .header {
+    width: 80vw;
+  }
+
+  .section {
+    width: 80vw;
+  }
+
+  .input-field {
+    width: 60vw;
+  }
+
+  button {
+    width: 19.5vw;
+  }
+}
